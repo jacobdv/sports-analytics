@@ -1,0 +1,3 @@
+# Retroactive Explanation/Exploration (June 2022)
+Significantly less work done this year. I was in the midst of a course on Data Visualization and Analytics and was beginning to look at other ways to pull in the data, such as using an API, but this is clearly unfinished here. Leaving this in for the sake of having all the pieces included, but this really doesn't reflect any legitimate work.<br /><br />
+Necessary API key is from SportsDataAPI.
