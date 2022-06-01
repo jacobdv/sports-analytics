@@ -1,0 +1,2 @@
+# Overview
+These workbooks represent what much of my early work looked like and are here primarily for continuity. While it is nice to see them and be able to look back through the algorithms, I'm am very glad this isn't the system I use anymore. At this point in my life, I was typing in the values for each cell and reformatting them as I needed. I had a TI calculator that I had programmed a script into to calculate each of the matchup results. I wish I had those programs still to see how it started. 
