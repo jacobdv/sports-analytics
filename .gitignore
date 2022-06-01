@@ -1,0 +1,3 @@
+# Files to Ignore - There shouldn't be many config files but just in case.
+config.py
+config.js
