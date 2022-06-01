@@ -4,6 +4,8 @@ In 2019_NCAA_Calculations, I began by dropping unnecessary columns and renaming 
 Moving to cell 10, team names were entered in the order of appearance on the bracket beginning on the left and going all the way down the list before moving to the right. This means that the first two teams listed are the 1 and 16 seed from the top left, then the 8 and 9, and so on. Using this system and a couple of for loops, each matchup was sent to the comparison function, with only the winner being added to the new list of names for the next round. Cells 12, 14, 16, 18, 20, and 22 print out each rounds winners. 
 # Results
 It almost picked the champ, but probably not for the right reasons. We can see even from the final printout in cell 21 that it rated Belmont and Virginia very similarly in the championship game (Belmont lost by 2 to Maryland in the opening round, Virginia were the National Champions).<br /><br />
+Virginia carred the late round success. They were the only correct pick from the Elite Eight on. The major weakness I see looking back at this algorithm is that it doesn't account for the opponent in the tournament in anything other than pace and rebound percentages. Therefore, if the algorithm gets attached to a team like Belmont, there isn't a way that can be overcome by examining the matchup.<br /><br />
+I do like the incorporation of assists as a rudimentary metric for offensive cohesion, as well as the process for iteratively evaluating teams. This is a massive leap compared to what this process was when I was in Excel, but the algorithm definitely has some flaws that Belmont took advantage of. Still, cool to see how close it was on the champ. 
 Looking at overall success:
  - Round of 64: 20/32 (62.50%)
  - Round of 32: 5/16 (31.25%)
@@ -11,8 +13,6 @@ Looking at overall success:
  - Elite Eight: 1/4 (25.00%)
  - Final Four: 1/2 (50.00%)
  - Championship: 0/1 (0.00%)<br /><br />
- - Total: 31/63 (49.21%)<br /><br />
-Virginia carred the late round success. They were the only correct pick from the Elite Eight on. The major weakness I see looking back at this algorithm is that it doesn't account for the opponent in the tournament in anything other than pace and rebound percentages. Therefore, if the algorithm gets attached to a team like Belmont, there isn't a way that can be overcome by examining the matchup.<br /><br />
-I do like the incorporation of assists as a rudimentary metric for offensive cohesion, as well as the process for iteratively evaluating teams. This is a massive leap compared to what this process was when I was in Excel, but the algorithm definitely has some flaws that Belmont took advantage of. Still, cool to see how close it was on the champ. 
+ - Total: 31/63 (49.21%)
 # Final Notes
 Not a bad model overall and just shy of 50% for the tournament isn't awful given that the ability to be successful slowly dwindles (for example, after picking only one elite eight winner, the maximum correct picks in the final four is one). However, this model definitely highlights the need to go back and review the flaws of old algorithms before building new ones.
