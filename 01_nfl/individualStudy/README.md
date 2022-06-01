@@ -1,0 +1,4 @@
+# Overview
+Projects in this space are specific to an aspect of the game that needs more in depth analysis. 
+For example, looking specifically at the first pass a quarterback throws after an interception earlier in the game is interesting for a number of reasons. It tells you how the quarterback is affected, or not, by their earlier play. We can examine how average depth of target, completion percentage, and yards gained are all impacted as averages. 
+This will likely move into R primarily rather than Pandas, as most individual studies will tend to be on a play by play level based on how I think about the game. 
